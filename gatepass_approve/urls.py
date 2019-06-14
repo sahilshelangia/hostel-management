@@ -20,4 +20,4 @@ urlpatterns = [
 		path('reject-hostel-warden/<id>/',views.reject_gatepass_hostel_warden,name='reject_gatepass_hostel_warden'),
 		path('reject-hostel-assistant-warden/<id>/',views.reject_gatepass_hostel_assistant_warden,name='reject_gatepass_hostel_assistant_warden'),
 		
-]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

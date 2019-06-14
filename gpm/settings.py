@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'be+ubm0=qq=f0@wo%b413(p(wg^_3$wzwg9g@@6z8i96q&_tv6'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -69,8 +69,7 @@ TEMPLATES = [
                 'django.contrib.messages.context_processors.messages',
             ],
         },
-    },
-]
+    },]
 
 WSGI_APPLICATION = 'gpm.wsgi.application'
 
@@ -123,7 +122,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS=[os.path.join(BASE_DIR,'static')]
+STATICFILES_DIRS=['/home/prashant_rawat216/hostel_web/hostel-management/media','/home/prashant_rawat216/hostel_web/hostel-management/college_data']
+
+STATIC_ROOT = '/home/prashant_rawat216/hostel_web/hostel-management/static'
 
 MEDIA_URL='/media/'
 MEDIA_ROOT=os.path.join(BASE_DIR,'media')

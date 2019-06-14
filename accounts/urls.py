@@ -15,4 +15,4 @@ urlpatterns = [
     path('password_change/done/',views.PasswordChangeDoneView.as_view(),name='password_change_done'),
     path('update-profile/',views.update_profile,name='update_profile'),
     path('view-profile/',views.view_profile,name='view_profile'),
-]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

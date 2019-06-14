@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	{% load static %}
 	<meta charset="UTF-8">
 	<title>| E-hostel Leave Application</title>
   <link rel="icon" href="/static/images/icon.png" type="image/gif" sizes="16x16">
@@ -156,7 +157,7 @@
 <div class="container">
 {%block content%}
 </div>
-<img src="/media/pics/1.jpg" width="100%"  class="img-fluid" >
+<img src="{% static 'pics/1.jpg' %}" width="100%"  class="img-fluid" >
 <div>
 {%endblock%}
 </div>

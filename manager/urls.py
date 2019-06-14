@@ -15,4 +15,4 @@ urlpatterns = [
 		path('rejected-list/',views.rejected_list,name='rejected_list'),
 		path('approved-list/',views.approved_list,name='approved_list'),
 		path('gatepass-detail/<id>/',views.gatepass_detail,name='gatepass_detail'),
-]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
