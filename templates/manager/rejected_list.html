@@ -1,5 +1,7 @@
 {%extends 'manager/base.html'%}
+{% load static %}
 {%block content%}
+     <div class="table-responsive">
 <table class="table table-striped">
   <thead>
     <tr>
@@ -30,6 +32,7 @@
 	{%endfor%}
   </tbody>
 </table>
+      <div class="table-responsive">
 
 
 {% if rejected_passes.has_other_pages %}

@@ -13,4 +13,4 @@ urlpatterns = [
     path('detail/<id>/',views.gatepass_detail,name='gatepass_detail'),
     path('gatepass_delete/<id>/',views.gatepass_delete,name='gatepass_delete'),
     path('gatepass_update/<id>/',views.gatepass_update,name='gatepass_update'),
-]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
