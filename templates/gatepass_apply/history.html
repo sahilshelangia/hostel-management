@@ -31,19 +31,19 @@
             {%ifequal g.hostel_warden "Pending"%}
               {%ifequal g.hostel_assistant_warden "Pending"%}
                 <td>
-                  <a href="{%url 'gatepass_apply:gatepass_detail' g.id%}"><button type="button" class="btn btn-info">Detail</button></a>
-                  <a href="{%url 'gatepass_apply:gatepass_update' g.id%}"><button type="button" class="btn btn-warning">Update</button></a>
-                  <button id="btn-confirm" type="button" class="btn btn-danger">Delete</button>
+                  <a href="{%url 'gatepass_apply:gatepass_detail' g.id%}"><button type="button" class="btn btn-info" style="width: 80px;">Detail</button></a>
+                  <a href="{%url 'gatepass_apply:gatepass_update' g.id%}"><button type="button" class="btn btn-warning" style="width: 80px;">Update</button></a>
+                  <button id="btn-confirm" type="button" class="btn btn-danger" style="width: 80px;">Delete</button>
                   <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" id="mi-modal">
                     <div class="modal-dialog modal-sm">
                       <div class="modal-content">
                         <div class="modal-header">
                           <h4 class="modal-title" id="myModalLabel">Are you sure to delete gatepass?</h4>
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true" style="width: 80px;">&times;</span></button>
                         </div>
                         <div class="modal-footer">
-                          <a href="{%url 'gatepass_apply:gatepass_delete' g.id%}"><button type="button" class="btn btn-danger" id="modal-btn-si">Delete</button></a>
-                          <button type="button" class="btn btn-primary" id="modal-btn-no">Cancel</button>
+                          <a href="{%url 'gatepass_apply:gatepass_delete' g.id%}"><button type="button" class="btn btn-danger" id="modal-btn-si" style="width: 80px;">Delete</button></a>
+                          <button type="button" class="btn btn-primary" id="modal-btn-no" style="width: 80px;">Cancel</button>
                         </div>
                       </div>
                     </div>
@@ -51,30 +51,30 @@
                 </td>
               {%else%}
                 <td>
-                  <a href="{%url 'gatepass_apply:gatepass_detail' g.id%}"><button type="button" class="btn btn-info">Detail</button></a>
-                <button type="button" class="btn btn-warning" disabled>Update</button>
-                <button type="button" class="btn btn-danger" disabled>Delete</button>
+                  <a href="{%url 'gatepass_apply:gatepass_detail' g.id%}"><button type="button" class="btn btn-info style="width: 80px;"">Detail</button></a>
+                <button type="button" class="btn btn-warning" style="width: 80px;" disabled>Update</button>
+                <button type="button" class="btn btn-danger" style="width: 80px;" disabled>Delete</button>
               </td>
             {%endifequal%}
           {%else%}
                 <td>
-                  <a href="{%url 'gatepass_apply:gatepass_detail' g.id%}"><button type="button" class="btn btn-info">Detail</button></a>
-                <button type="button" class="btn btn-warning" disabled>Update</button>
-                <button type="button" class="btn btn-danger" disabled>Delete</button>
+                  <a href="{%url 'gatepass_apply:gatepass_detail' g.id%}"><button type="button" class="btn btn-info" style="width: 80px;">Detail</button></a>
+                <button type="button" class="btn btn-warning" disabled style="width: 80px;">Update</button>
+                <button type="button" class="btn btn-danger" disabled style="width: 80px;">Delete</button>
               </td>
           {%endifequal%}
         {%else%}
                 <td>
-                  <a href="{%url 'gatepass_apply:gatepass_detail' g.id%}"><button type="button" class="btn btn-info">Detail</button></a>
-                <button type="button" class="btn btn-warning" disabled>Update</button>
-                <button type="button" class="btn btn-danger" disabled>Delete</button>
+                  <a href="{%url 'gatepass_apply:gatepass_detail' g.id%}"><button type="button" class="btn btn-info" style="width: 80px;">Detail</button></a>
+                <button type="button" class="btn btn-warning" disabled style="width: 80px;">Update</button>
+                <button type="button" class="btn btn-danger" disabled style="width: 80px;">Delete</button>
               </td>
         {%endifequal%}
       {%else%}
             <td>
-              <a href="{%url 'gatepass_apply:gatepass_detail' g.id%}"><button type="button" class="btn btn-info">Detail</button></a>
-            <button type="button" class="btn btn-warning" disabled>Update</button>
-            <button type="button" class="btn btn-danger" disabled>Delete</button>
+              <a href="{%url 'gatepass_apply:gatepass_detail' g.id%}"><button type="button" class="btn btn-info" style="width: 80px;">Detail</button></a>
+            <button type="button" class="btn btn-warning" disabled style="width: 80px;">Update</button>
+            <button type="button" class="btn btn-danger" disabled style="width: 80px;">Delete</button>
           </td>
       {%endifequal%}
       </tr>
