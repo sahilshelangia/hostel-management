@@ -103,7 +103,7 @@ def signup(request):
 				'user': var,
 				'domain': current_site.domain,
 				# .decode() after uid
-				'uid':urlsafe_base64_encode(force_bytes(var.pk)),
+				'uid':urlsafe_base64_encode(force_bytes(var.pk)),#.decode(),
 				'token':account_activation_token.make_token(var),
 				})
 				to_email = request.POST.get('email')
@@ -126,7 +126,7 @@ def signup(request):
 			message = render_to_string('registration/acc_active_email.html', {
 			'user': user,
 			'domain': current_site.domain,
-			'uid':urlsafe_base64_encode(force_bytes(user.pk)),  #.decode()
+			'uid':urlsafe_base64_encode(force_bytes(user.pk)),  #.decode(),
 			'token':account_activation_token.make_token(user),
 			})
 			to_email = form.cleaned_data.get('email')
