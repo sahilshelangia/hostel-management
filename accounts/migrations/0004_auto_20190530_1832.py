@@ -4,7 +4,6 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
         ('accounts', '0003_auto_20190528_2316'),
     ]
@@ -18,6 +17,9 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='profile',
             name='hostel',
-            field=models.CharField(choices=[('BH1(Arawali Hostel)', 'BH1(Arawali Hostel)'), ('BH2(Nilgiri Hostel)', 'BH2(Nilgiri Hostel)'), ('BH3(Shivalik Hostel)', 'BH3(Shivalik Hostel)'), ('GH(Gangotri Hostel)', 'GH(Gangotri Hostel)')], default='BH1', max_length=30),
+            field=models.CharField(
+                choices=[('BH1(Arawali Hostel)', 'BH1(Arawali Hostel)'), ('BH2(Nilgiri Hostel)', 'BH2(Nilgiri Hostel)'),
+                         ('BH3(Shivalik Hostel)', 'BH3(Shivalik Hostel)'),
+                         ('GH(Gangotri Hostel)', 'GH(Gangotri Hostel)')], default='BH1', max_length=30),
         ),
     ]

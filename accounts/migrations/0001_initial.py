@@ -4,7 +4,6 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     initial = True
 
     dependencies = [
@@ -21,7 +20,8 @@ class Migration(migrations.Migration):
                 ('room_no', models.CharField(max_length=3)),
                 ('father_name', models.CharField(max_length=50)),
                 ('father_mobile', models.CharField(max_length=11)),
-                ('hostel', models.CharField(choices=[('BH1', 'BH1'), ('BH2', 'BH2'), ('BH3', 'BH3'), ('GH1', 'GH1')], default='BH1', max_length=5)),
+                ('hostel', models.CharField(choices=[('BH1', 'BH1'), ('BH2', 'BH2'), ('BH3', 'BH3'), ('GH1', 'GH1')],
+                                            default='BH1', max_length=5)),
             ],
         ),
     ]
