@@ -137,10 +137,14 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav mr-auto"> 
             <li class="nav-item active">
                 <a class="nav-link" href="{% url 'index' %}"><i class="fas fa-home"></i> Home <span class="sr-only">(current)</span></a>
             </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="{% url 'contactUs' %}"><i class="fas fa-contact"></i> Contact Staff <span class="sr-only">(current)</span></a>
+            </li>
+
         </ul>
 
         </ul>
@@ -164,7 +168,7 @@
                 <a class="nav-link" href="{% url 'gatepass_apply:history' %}">History</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{% url 'contact' %}">Contact Us</a>
+                <a class="nav-link" href="{% url 'contact' %}">Hostel Staff</a>
             </li>
 
             {% else %}
@@ -199,7 +203,7 @@
                     {% endifequal %}
                     {% endifequal %}
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Hi {{ user.username }}</a>
+                        <a class="nav-link" href="#">Hi, {{ user.username }}!</a>
                     </li>
                     <ul class="navbar-nav mr-auto dropdown-menu-right">
                         <li class="nav-item dropdown ">
@@ -221,6 +225,8 @@
     </div>
 </nav>
 <div class="container-fluid">
+	<br>
+	<h1 align="center" style=font-size:72px>STUDENT WELFARE SOCIETY</h1>
     {% block content %}
         {#        </div>#}
         {#        <img src="{% static 'pics/1.jpg' %}" width="100%" class="img-fluid">#}

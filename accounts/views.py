@@ -217,6 +217,46 @@ def contact(request):
         return render(request, 'permission_denied.html', {})
 
 
+def contactUs(request):
+    # //mention suprvisor
+  #  if prof.user_type == "Student":
+  #      supervisor = Profile.objects.get(user=request.user)
+  #      warden = Profile.objects.get(user=request.user)
+  #      assistant_warden = Profile.objects.get(user=request.user)
+  #      control_room = Profile.objects.get(user=request.user)
+
+    supervisor = []
+    warden = []
+    assistant_warden = []
+
+    supervisor.append(Profile.objects.get(user_type="GH Supervisor"))
+    warden.append(Profile.objects.get(user_type="GH Warden"))
+    assistant_warden.append(Profile.objects.get(user_type="GH Assistant Warden"))
+   # control_room.append(Profile.objects.get(user_type="Control Room"))
+    
+    supervisor.append(Profile.objects.get(user_type="BH1 Supervisor"))
+    warden.append(Profile.objects.get(user_type="BH1 Warden"))
+    assistant_warden.append(Profile.objects.get(user_type="BH1 Assistant Warden"))
+   # control_room.append(Profile.objects.get(user_type="Control Room"))
+  
+    supervisor.append(Profile.objects.get(user_type="BH2 Supervisor"))
+    warden.append(Profile.objects.get(user_type="BH2 Warden"))
+    assistant_warden.append(Profile.objects.get(user_type="BH2 Assistant Warden"))
+   # control_room.append(Profile.objects.get(user_type="Control Room"))
+
+    supervisor.append(Profile.objects.get(user_type="BH3 Supervisor"))
+    warden.append(Profile.objects.get(user_type="BH3 Warden"))
+    assistant_warden.append(Profile.objects.get(user_type="BH3 Assistant Warden"))
+    control_room = Profile.objects.get(user_type="Control Room")
+    admin = Profile.objects.get(user_type="Admin")
+
+    zip_list = zip(supervisor, warden , assistant_warden)
+
+    context = {'control_room': control_room, 'admin':admin, 'zip_list' : zip_list}
+    return render(request, 'accounts/contactUs.html', context=context)
+
+
+
 class PasswordChangeView(PasswordContextMixin, FormView):
     form_class = PasswordChangeForm
     success_url = reverse_lazy('accounts:password_change_done')
