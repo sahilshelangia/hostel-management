@@ -1,2 +1,5 @@
 nohup.out
 *.pyc
+__pycache__/
+.idea/
+.idea/workspace.xml
