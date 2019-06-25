@@ -4,7 +4,6 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
         ('accounts', '0002_auto_20190525_1004'),
     ]
@@ -13,11 +12,23 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='profile',
             name='hostel',
-            field=models.CharField(choices=[('BH1(Arawali Hostel)', 'BH1(Arawali Hostel)'), ('BH2(Nilgiri Hostel)', 'BH2(Nilgiri Hostel)'), ('BH3(Shivalik Hostel)', 'BH3(Shivalik Hostel)'), ('GH(Gangotri Hostel)', 'GH(Gangotri Hostel)')], default='BH1', max_length=5),
+            field=models.CharField(
+                choices=[('BH1(Arawali Hostel)', 'BH1(Arawali Hostel)'), ('BH2(Nilgiri Hostel)', 'BH2(Nilgiri Hostel)'),
+                         ('BH3(Shivalik Hostel)', 'BH3(Shivalik Hostel)'),
+                         ('GH(Gangotri Hostel)', 'GH(Gangotri Hostel)')], default='BH1', max_length=5),
         ),
         migrations.AlterField(
             model_name='profile',
             name='user_type',
-            field=models.CharField(choices=[('BH1 Supervisor', 'BH1 Supervisor'), ('BH1 Warden', 'BH1 Warden'), ('BH1 Assistant Warden', 'BH1 Assistant Warden'), ('BH2 Supervisor', 'BH2 Supervisor'), ('BH2 Warden', 'BH2 Warden'), ('BH2 Assistant Warden', 'BH2 Assistant Warden'), ('BH3 Supervisor', 'BH3 Supervisor'), ('BH3 Warden', 'BH3 Warden'), ('BH3 Assistant Warden', 'BH3 Assistant Warden'), ('GH Supervisor', 'GH Supervisor'), ('GH Warden', 'GH Warden'), ('GH Assistant Warden', 'GH Assistant Warden'), ('Control Room', 'Control Room'), ('Student', 'Student'), ('Admin', 'Admin')], default='Student', max_length=30),
+            field=models.CharField(choices=[('BH1 Supervisor', 'BH1 Supervisor'), ('BH1 Warden', 'BH1 Warden'),
+                                            ('BH1 Assistant Warden', 'BH1 Assistant Warden'),
+                                            ('BH2 Supervisor', 'BH2 Supervisor'), ('BH2 Warden', 'BH2 Warden'),
+                                            ('BH2 Assistant Warden', 'BH2 Assistant Warden'),
+                                            ('BH3 Supervisor', 'BH3 Supervisor'), ('BH3 Warden', 'BH3 Warden'),
+                                            ('BH3 Assistant Warden', 'BH3 Assistant Warden'),
+                                            ('GH Supervisor', 'GH Supervisor'), ('GH Warden', 'GH Warden'),
+                                            ('GH Assistant Warden', 'GH Assistant Warden'),
+                                            ('Control Room', 'Control Room'), ('Student', 'Student'),
+                                            ('Admin', 'Admin')], default='Student', max_length=30),
         ),
     ]

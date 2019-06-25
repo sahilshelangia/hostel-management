@@ -15,7 +15,6 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
 
@@ -23,10 +22,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'be+ubm0=qq=f0@wo%b413(p(wg^_3$wzwg9g@@6z8i96q&_tv6'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True 
 
 ALLOWED_HOSTS = ['*']
-
 
 # Application definition
 
@@ -61,7 +59,7 @@ ROOT_URLCONF = 'gpm.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR,'templates')],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -71,10 +69,9 @@ TEMPLATES = [
                 'django.contrib.messages.context_processors.messages',
             ],
         },
-    },]
+    }, ]
 
 WSGI_APPLICATION = 'gpm.wsgi.application'
-
 
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
@@ -85,7 +82,6 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/2.1/ref/settings/#auth-password-validators
@@ -105,7 +101,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/2.1/topics/i18n/
 
@@ -119,7 +114,6 @@ USE_L10N = True
 
 USE_TZ = True
 
-
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
@@ -128,16 +122,16 @@ STATICFILES_DIRS=['/home/prashant_rawat216/hostel_web/hostel-management/media','
 
 STATIC_ROOT = '/home/prashant_rawat216/hostel_web/hostel-management/static'
 
-# STATICFILES_DIRS=['/media/pr/Prashant/Projects/hostel-management/media','/media/pr/Prashant/Projects/hostel-management/college_data']
+# STATICFILES_DIRS = ['/media/pr/Prashant/Projects/hostel-management/media',
+#                     '/media/pr/Prashant/Projects/hostel-management/college_data']
 #
 # STATIC_ROOT = '/media/pr/Prashant/Projects/hostel-management/static'
 
-MEDIA_URL='/media/'
-MEDIA_ROOT=os.path.join(BASE_DIR,'media')
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 LOGIN_REDIRECT_URL = '/'
-LOGOUT_REDIRECT_URL='/'
-
+LOGOUT_REDIRECT_URL = '/'
 
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
@@ -145,8 +139,6 @@ EMAIL_PORT = 587
 EMAIL_HOST_USER = 'surjeetsingh41097@gmail.com'
 EMAIL_HOST_PASSWORD = 'password@007'
 
-
-
-#Session
-SESSION_EXPIRE_AT_BROWSER_CLOSE=True
+# Session
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 # django_heroku.settings(locals())

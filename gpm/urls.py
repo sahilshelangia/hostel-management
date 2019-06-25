@@ -1,4 +1,3 @@
-
 """gpm URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -15,18 +14,21 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path,include
-from accounts.views import index,contact
+from django.urls import path, include
+from accounts.views import index, contact, contactUs
 from django.conf import settings
 from django.conf.urls.static import static
-urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('',index,name='index'),
-    path('accounts/',include('accounts.urls')),
-    path('accounts/', include('django.contrib.auth.urls')),
-    path('gatepass/',include('gatepass_apply.urls')),
-    path('approve/',include('gatepass_approve.urls')),
-    path('manager/',include('manager.urls')),
-    path('contact/',contact,name='contact'),
 
-]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+urlpatterns = [
+                  path('admin/', admin.site.urls),
+                  path('', index, name='index'),
+                  path('accounts/', include('accounts.urls')),
+                  path('accounts/', include('django.contrib.auth.urls')),
+                  path('gatepass/', include('gatepass_apply.urls')),
+                  path('approve/', include('gatepass_approve.urls')),
+                  path('manager/', include('manager.urls')), 
+                  path('contactUs/', contactUs, name='contactUs'), 
+                  path('contact/', contact, name='contact'),
+
+
+              ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

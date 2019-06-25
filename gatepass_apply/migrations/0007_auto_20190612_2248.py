@@ -4,7 +4,6 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
         ('gatepass_apply', '0006_auto_20190612_2243'),
     ]

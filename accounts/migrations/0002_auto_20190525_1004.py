@@ -6,7 +6,6 @@ import django.db.models.deletion
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
         migrations.swappable_dependency(settings.AUTH_USER_MODEL),
         ('accounts', '0001_initial'),
@@ -35,12 +34,22 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='profile',
             name='user',
-            field=models.OneToOneField(blank=True, null=True, on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL),
+            field=models.OneToOneField(blank=True, null=True, on_delete=django.db.models.deletion.CASCADE,
+                                       to=settings.AUTH_USER_MODEL),
         ),
         migrations.AddField(
             model_name='profile',
             name='user_type',
-            field=models.CharField(choices=[('BH1 Supervisor', 'BH1 Supervisor'), ('BH1 Warden', 'BH1 Warden'), ('BH1 Assistant Warden', 'BH1 Assistant Warden'), ('BH2 Supervisor', 'BH2 Supervisor'), ('BH2 Warden', 'BH2 Warden'), ('BH2 Assistant Warden', 'BH2 Assistant Warden'), ('BH3 Supervisor', 'BH3 Supervisor'), ('BH3 Warden', 'BH3 Warden'), ('BH3 Assistant Warden', 'BH3 Assistant Warden'), ('GH Supervisor', 'GH Supervisor'), ('GH Warden', 'GH Warden'), ('GH Assistant Warden', 'GH Assistant Warden'), ('Control Room', 'Control Room'), ('Student', 'Student')], default='Student', max_length=30),
+            field=models.CharField(choices=[('BH1 Supervisor', 'BH1 Supervisor'), ('BH1 Warden', 'BH1 Warden'),
+                                            ('BH1 Assistant Warden', 'BH1 Assistant Warden'),
+                                            ('BH2 Supervisor', 'BH2 Supervisor'), ('BH2 Warden', 'BH2 Warden'),
+                                            ('BH2 Assistant Warden', 'BH2 Assistant Warden'),
+                                            ('BH3 Supervisor', 'BH3 Supervisor'), ('BH3 Warden', 'BH3 Warden'),
+                                            ('BH3 Assistant Warden', 'BH3 Assistant Warden'),
+                                            ('GH Supervisor', 'GH Supervisor'), ('GH Warden', 'GH Warden'),
+                                            ('GH Assistant Warden', 'GH Assistant Warden'),
+                                            ('Control Room', 'Control Room'), ('Student', 'Student')],
+                                   default='Student', max_length=30),
         ),
         migrations.AlterField(
             model_name='profile',
@@ -55,7 +64,8 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='profile',
             name='hostel',
-            field=models.CharField(choices=[('BH1', 'BH1'), ('BH2', 'BH2'), ('BH3', 'BH3'), ('GH', 'GH')], default='BH1', max_length=5),
+            field=models.CharField(choices=[('BH1', 'BH1'), ('BH2', 'BH2'), ('BH3', 'BH3'), ('GH', 'GH')],
+                                   default='BH1', max_length=5),
         ),
         migrations.AlterField(
             model_name='profile',

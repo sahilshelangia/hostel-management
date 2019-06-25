@@ -7,7 +7,6 @@ import django.db.models.deletion
 
 
 class Migration(migrations.Migration):
-
     initial = True
 
     dependencies = [
@@ -28,17 +27,27 @@ class Migration(migrations.Migration):
                 ('father_mobile', models.CharField(blank=True, max_length=11, null=True)),
                 ('hostel', models.CharField(max_length=5)),
                 ('pic', models.ImageField(blank=True, null=True, upload_to='gatepass_apply/pics')),
-                ('from_date', models.CharField(default=datetime.datetime(2019, 5, 22, 19, 27, 46, 636892), max_length=30)),
-                ('to_date', models.CharField(default=datetime.datetime(2019, 5, 22, 19, 27, 46, 636929), max_length=30)),
+                ('from_date',
+                 models.CharField(default=datetime.datetime(2019, 5, 22, 19, 27, 46, 636892), max_length=30)),
+                (
+                'to_date', models.CharField(default=datetime.datetime(2019, 5, 22, 19, 27, 46, 636929), max_length=30)),
                 ('purpose', models.CharField(max_length=500)),
                 ('address_during_leave', models.CharField(max_length=100)),
-                ('hostel_supervisor', models.CharField(choices=[('Pending', 'Pending'), ('Approved', 'Approved'), ('Rejected', 'Rejected')], default='Pending', max_length=20)),
+                ('hostel_supervisor',
+                 models.CharField(choices=[('Pending', 'Pending'), ('Approved', 'Approved'), ('Rejected', 'Rejected')],
+                                  default='Pending', max_length=20)),
                 ('hostel_supervisor_remark', models.CharField(default='N/A', max_length=500)),
-                ('hostel_warden', models.CharField(choices=[('Pending', 'Pending'), ('Approved', 'Approved'), ('Rejected', 'Rejected')], default='Pending', max_length=20)),
+                ('hostel_warden',
+                 models.CharField(choices=[('Pending', 'Pending'), ('Approved', 'Approved'), ('Rejected', 'Rejected')],
+                                  default='Pending', max_length=20)),
                 ('hostel_warden_remark', models.CharField(default='N/A', max_length=500)),
-                ('hostel_assistant_warden', models.CharField(choices=[('Pending', 'Pending'), ('Approved', 'Approved'), ('Rejected', 'Rejected')], default='Pending', max_length=20)),
+                ('hostel_assistant_warden',
+                 models.CharField(choices=[('Pending', 'Pending'), ('Approved', 'Approved'), ('Rejected', 'Rejected')],
+                                  default='Pending', max_length=20)),
                 ('hostel_assistant_warden_remark', models.CharField(default='N/A', max_length=500)),
-                ('control_room', models.CharField(choices=[('Pending', 'Pending'), ('Approved', 'Approved'), ('Rejected', 'Rejected')], default='Pending', max_length=20)),
+                ('control_room',
+                 models.CharField(choices=[('Pending', 'Pending'), ('Approved', 'Approved'), ('Rejected', 'Rejected')],
+                                  default='Pending', max_length=20)),
                 ('control_room_remark', models.CharField(default='N/A', max_length=500)),
                 ('user', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL)),
             ],
@@ -50,7 +59,8 @@ class Migration(migrations.Migration):
                 ('detail', models.CharField(max_length=500)),
                 ('quantity', models.CharField(max_length=3)),
                 ('remark', models.CharField(max_length=500)),
-                ('gatepass', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='gatepass_apply.Gatepass')),
+                ('gatepass',
+                 models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='gatepass_apply.Gatepass')),
             ],
         ),
     ]
