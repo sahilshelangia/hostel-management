@@ -2,125 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff5eb0d2-ea5a-410a-bafb-222ec15d2f5e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/migrations/0002_auto_20190525_1004.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/migrations/0002_auto_20190525_1004.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/migrations/0003_auto_20190528_2316.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/migrations/0003_auto_20190528_2316.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/migrations/0004_auto_20190530_1832.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/migrations/0004_auto_20190530_1832.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/tokens.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/tokens.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatepass_apply/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/gatepass_apply/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatepass_apply/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/gatepass_apply/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatepass_apply/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/gatepass_apply/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatepass_apply/migrations/0002_auto_20190525_1004.py" beforeDir="false" afterPath="$PROJECT_DIR$/gatepass_apply/migrations/0002_auto_20190525_1004.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatepass_apply/migrations/0003_auto_20190528_2316.py" beforeDir="false" afterPath="$PROJECT_DIR$/gatepass_apply/migrations/0003_auto_20190528_2316.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatepass_apply/migrations/0004_auto_20190528_2326.py" beforeDir="false" afterPath="$PROJECT_DIR$/gatepass_apply/migrations/0004_auto_20190528_2326.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatepass_apply/migrations/0005_auto_20190530_1832.py" beforeDir="false" afterPath="$PROJECT_DIR$/gatepass_apply/migrations/0005_auto_20190530_1832.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatepass_apply/migrations/0006_auto_20190612_2243.py" beforeDir="false" afterPath="$PROJECT_DIR$/gatepass_apply/migrations/0006_auto_20190612_2243.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatepass_apply/migrations/0007_auto_20190612_2248.py" beforeDir="false" afterPath="$PROJECT_DIR$/gatepass_apply/migrations/0007_auto_20190612_2248.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatepass_apply/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/gatepass_apply/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatepass_apply/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/gatepass_apply/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatepass_apply/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/gatepass_apply/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatepass_approve/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/gatepass_approve/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatepass_approve/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/gatepass_approve/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gpm/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/gpm/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gpm/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/gpm/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manager/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/manager/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manager/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/manager/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manager/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/manager/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/pics/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/pics/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/pics/3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/css/changelists.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/changelists.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/css/rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/css/vendor/select2/select2.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/vendor/select2/select2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/css/widgets.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/css/widgets.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/calendar-icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/calendar-icons.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_off.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_off.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_on.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_on.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-addlink.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/icon-addlink.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-alert.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/icon-alert.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-calendar.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/icon-calendar.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-changelink.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/icon-changelink.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-clock.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/icon-clock.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-deletelink.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/icon-deletelink.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-no.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/icon-no.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-unknown-alt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/icon-unknown-alt.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-unknown.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/icon-unknown.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-viewlink.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/icon-viewlink.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/icon-yes.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/icon-yes.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/inline-delete.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/inline-delete.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/search.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/selector-icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/selector-icons.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/sorting-icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/sorting-icons.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/tooltag-add.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/tooltag-add.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/img/tooltag-arrowright.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/img/tooltag-arrowright.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/SelectBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/SelectBox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/SelectFilter2.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/SelectFilter2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/admin/DateTimeShortcuts.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/admin/DateTimeShortcuts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/admin/RelatedObjectLookups.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/admin/RelatedObjectLookups.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/autocomplete.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/autocomplete.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/calendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/calendar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/cancel.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/cancel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/change_form.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/change_form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/collapse.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/collapse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/core.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/core.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/inlines.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/inlines.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/popup_response.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/popup_response.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/prepopulate.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/prepopulate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/prepopulate_init.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/prepopulate_init.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/timeparse.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/timeparse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/urlify.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/urlify.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/select2/select2.full.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/select2/select2.full.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/pics/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/pics/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/pics/3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/accounts/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/accounts/update_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/update_profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/accounts/view_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/view_profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/accounts/pics/bh1_warden_1RG08jh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/accounts/pics/bh1_warden_M3AVAHR.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/accounts/pics/bh1_warden_UpC08cq.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/accounts/pics/dumy_3J8ol27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/accounts/pics/dumy_3NiMV4Q.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/accounts/pics/dumy_DPJMY3l.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/accounts/pics/dumy_G02KLgg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/accounts/pics/dumy_G02KLgg_6lWGukY.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/accounts/pics/dumy_G02KLgg_HZnUq0d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/accounts/pics/dumy_G02KLgg_N8zCumA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/accounts/pics/dumy_G02KLgg_NujWwRr.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/accounts/pics/dumy_G02KLgg_PaNNPzu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/accounts/pics/dumy_G02KLgg_QIFzpIT.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/accounts/pics/dumy_G02KLgg_RxEb43m.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/accounts/pics/dumy_G02KLgg_TBtBBxg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/accounts/pics/dumy_G02KLgg_VxZkHFP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/accounts/pics/dumy_G02KLgg_ajlOfgi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/accounts/pics/dumy_G02KLgg_f8UeUkE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/accounts/pics/dumy_G02KLgg_jL6ztJe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/accounts/pics/dumy_G02KLgg_jVEJDUb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/accounts/pics/dumy_G02KLgg_mq86Tjn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/accounts/pics/dumy_G02KLgg_nKdUTcg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/accounts/pics/dumy_G02KLgg_qsus42C.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/accounts/pics/dumy_G02KLgg_uF75KDK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/accounts/pics/dumy_G02KLgg_xgOJpNZ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/accounts/pics/dumy_HTeImHA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/accounts/pics/dumy_KxkvSUL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/accounts/pics/dumy_S94ctoC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/accounts/pics/dumy_TfD2FXI.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/accounts/pics/dumy_WGyMTO0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/accounts/pics/dumy_fKGUWwR.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/accounts/pics/dumy_wmfKLWu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/pics/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/.base.html.swp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/accounts/.contactUs.html.swp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/accounts/contactUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/contactUs.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/gatepass_apply/add_item.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/gatepass_apply/add_item.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/gatepass_apply/apply_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/gatepass_apply/apply_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/gatepass_apply/gatepass_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/gatepass_apply/gatepass_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/gatepass_apply/gatepass_print.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/gatepass_apply/gatepass_print.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/gatepass_apply/history.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/gatepass_apply/history.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/gatepass_approve/approved_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/gatepass_approve/approved_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/gatepass_approve/gatepass_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/gatepass_approve/gatepass_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/gatepass_approve/gatepass_print.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/gatepass_approve/gatepass_print.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/gatepass_approve/pending_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/gatepass_approve/pending_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/gatepass_approve/rejected_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/gatepass_approve/rejected_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/manager/approved_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/manager/approved_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/manager/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/manager/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/manager/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/manager/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/manager/gatepass_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/manager/gatepass_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/manager/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/manager/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/manager/list_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/manager/list_user.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/manager/pending_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/manager/pending_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/manager/rejected_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/manager/rejected_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/manager/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/manager/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/manager/update_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/manager/update_user.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/manager/view_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/manager/view_profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/permission_denied.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/permission_denied.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/registration/confirm_mail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/confirm_mail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/registration/mail_confirmed.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/mail_confirmed.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/registration/password_change_done.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/password_change_done.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/registration/password_change_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/password_change_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/registration/password_reset_complete.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/password_reset_complete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/registration/password_reset_confirm.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/password_reset_confirm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/registration/password_reset_done.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/password_reset_done.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/registration/password_reset_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/password_reset_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/registration/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -130,11 +53,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gpm/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1095">
-              <caret line="73" column="41" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
+            <state relative-caret-position="298">
+              <caret line="132" column="24" selection-start-line="132" selection-start-column="24" selection-end-line="132" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -142,29 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="259" column="47" selection-start-line="259" selection-start-column="47" selection-end-line="259" selection-end-column="47" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ul#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ul#0;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/accounts/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="3870">
+              <caret line="258" column="48" selection-start-line="258" selection-start-column="48" selection-end-line="258" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -214,9 +116,9 @@
         <option value="$PROJECT_DIR$/templates/gatepass_approve/pending_list.html" />
         <option value="$PROJECT_DIR$/templates/gatepass_approve/rejected_list.html" />
         <option value="$PROJECT_DIR$/templates/manager/list_user.html" />
-        <option value="$PROJECT_DIR$/gpm/settings.py" />
         <option value="$PROJECT_DIR$/templates/accounts/update_profile.html" />
         <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/gpm/settings.py" />
       </list>
     </option>
   </component>
@@ -301,18 +203,19 @@
       <workItem from="1560495598705" duration="16747000" />
       <workItem from="1560629476236" duration="8817000" />
       <workItem from="1560673305809" duration="4233000" />
-      <workItem from="1560761297483" duration="4883000" />
+      <workItem from="1560761297483" duration="6349000" />
+      <workItem from="1561333872500" duration="128000" />
+      <workItem from="1561345950974" duration="594000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34958000" />
+    <option name="totallyTimeSpent" value="37146000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-1" width="1440" height="901" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="-1" width="1920" height="1081" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19971265" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20512821" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -325,7 +228,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.40575916" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.40572035" />
       <window_info anchor="bottom" id="Python Console" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -527,13 +430,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gpm/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1095">
-          <caret line="73" column="41" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/manager/signup.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -548,29 +444,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="259" column="47" selection-start-line="259" selection-start-column="47" selection-end-line="259" selection-end-column="47" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/accounts/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gpm/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="132" column="24" selection-start-line="132" selection-start-column="24" selection-end-line="132" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3870">
+          <caret line="258" column="48" selection-start-line="258" selection-start-column="48" selection-end-line="258" selection-end-column="48" />
         </state>
       </provider>
     </entry>

@@ -47,6 +47,11 @@
             {#}#}
 
 
+@media screen and (min-width: 1080px){
+	.hostel-card-1{
+        margin: 0 10vw;
+		}
+      }
 
 
             .inset {
@@ -86,6 +91,12 @@
             background-size: initial;
             margin-top: 25px;
         }
+@media screen and (min-width: 1080px){
+	.hostel-card-1{
+        margin: 0 10vw;
+		}
+      }
+
 
         .column {
             float: left;
@@ -102,6 +113,7 @@
             content: "";
             display: table;
             clear: both;
+			margin: 0 
         }
 
         @media screen and (max-width: 900px) {
@@ -127,7 +139,7 @@
         }
     </style>
 </head>
-<body background="{% static 'pics/2.jpg' %}">
+<body background="{% static 'pics/grey_back.jpg' %}">
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="width: 100%">
     <a class="navbar-brand" href="#">E-hostel Leave Application</a>
@@ -226,16 +238,16 @@
 </nav>
 <div class="container-fluid">
 	<br>
-	<h1 align="center" style=font-size:72px>STUDENT WELFARE SOCIETY</h1>
+	<h1 align="center" style="font-size: 72px; font-family: Times New Roman;">STUDENT WELFARE SOCIETY</h1>
     {% block content %}
         {#        </div>#}
-        {#        <img src="{% static 'pics/1.jpg' %}" width="100%" class="img-fluid">#}
+        {#        <img src="{% static 'pics/bh1.jpg' %}" width="100%" class="img-fluid">#}
         <div class="back">
             <div class="row">
                 <div class="column" style="background-color: rgba(230, 202, 202, 0.80);">
                     <h1 align="center">Gangotri Hostel</h1>
                     <h2 align="center">(GH)</h2>
-                    <img src="{% static 'pics/1.jpg' %}" width="100%" class="img-fluid">
+                    <img src="{% static 'pics/gh.jpg' %}" width="100%" class="img-fluid">
                     <br><br>
                     <h4>Facilities</h4>
                     <ul style="list-style-type:none;">
@@ -248,7 +260,7 @@
                 <div class="column" style="background-color: rgba(141, 182, 205, 0.80)">
                     <h1 align="center">Arawali Hostel</h1>
                     <h2 align="center">(BH1)</h2>
-                    <img src="{% static 'pics/1.jpg' %}" width="100%" class="img-fluid">
+                    <img src="{% static 'pics/bh1.jpg' %}" width="100%" class="img-fluid">
                     <br><br>
                     <h4>Facilities</h4>
                     <ul style="list-style-type:none;">
@@ -262,7 +274,7 @@
                 <div class="column" style="background-color: rgba(141, 205, 171, 0.80)">
                     <h1 align="center">Nilgiri Hostel</h1>
                     <h2 align="center">(BH2)</h2>
-                    <img src="{% static 'pics/1.jpg' %}" width="100%" class="img-fluid">
+                    <img src="{% static 'pics/bh2.jpg' %}" width="100%" class="img-fluid">
                     <br><br>
                     <h4>Facilities</h4>
                     <ul style="list-style-type:none;">
@@ -275,7 +287,7 @@
                 <div class="column" style="background-color: rgba(174, 141, 205, 0.70)">
                     <h1 align="center">Shivalik Hostel</h1>
                     <h2 align="center">(BH3)</h2>
-                    <img src="{% static 'pics/1.jpg' %}" width="100%" class="img-fluid">
+                    <img src="{% static 'pics/bh3.jpg' %}" width="100%" class="img-fluid">
                     <br><br>
                     <h4>Facilities</h4>
                     <ul style="list-style-type:none;">
