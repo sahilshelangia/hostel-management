@@ -28,6 +28,21 @@ app_name = 'accounts'
 
 
 # Create your views here.
+
+def read_file1(request):
+    f = open('.well-known/acme-challenge/NAfTgP4hg6-89zx5DTWnuWJ6UpZqK7-ScWj6zF-IbF0', 'r')
+    file_content = f.read()
+    f.close()
+    return HttpResponse(file_content, content_type="text/plain")
+
+
+def read_file2(request):
+    f = open('.well-known/acme-challenge/Ku3EbN4vJ4p3BPM2NWST1_YTNf-kSP4Zk2UlhOvp3h4', 'r')
+    file_content = f.read()
+    f.close()
+    return HttpResponse(file_content, content_type="text/plain")
+
+
 def index(request):
     context = {}
     if request.user.is_authenticated:

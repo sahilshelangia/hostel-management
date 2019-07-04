@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'gatepass_approve',
     'manager',
     'widget_tweaks',
+    'django_extensions',
 ]
 
 MIDDLEWARE = [
