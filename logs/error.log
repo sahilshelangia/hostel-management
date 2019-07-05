@@ -42,3 +42,21 @@
 [Fri Jul 05 03:25:55.105175 2019] [wsgi:error] [pid 23598:tid 140157793593088] [client 27.56.245.14:18712]   File "/home/prashant_rawat216/hostel_web/hostel-management/gpm/wsgi.py", line 16, in <module>
 [Fri Jul 05 03:25:55.105180 2019] [wsgi:error] [pid 23598:tid 140157793593088] [client 27.56.245.14:18712]     from django.core.wsgi import get_wsgi_application
 [Fri Jul 05 03:25:55.105196 2019] [wsgi:error] [pid 23598:tid 140157793593088] [client 27.56.245.14:18712] ModuleNotFoundError: No module named 'django'
+[Fri Jul 05 05:50:21.599581 2019] [wsgi:error] [pid 29526:tid 139905214031616] Traceback (most recent call last):
+[Fri Jul 05 05:50:21.599707 2019] [wsgi:error] [pid 29526:tid 139905214031616]   File "/home/prashant_rawat216/hostel_web/hostel-management/gpm/wsgi.py", line 23, in <module>
+[Fri Jul 05 05:50:21.599714 2019] [wsgi:error] [pid 29526:tid 139905214031616]     application = get_wsgi_application()
+[Fri Jul 05 05:50:21.599721 2019] [wsgi:error] [pid 29526:tid 139905214031616]   File "/home/prashant_rawat216/hostel_web/hostel-management/env/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Fri Jul 05 05:50:21.599726 2019] [wsgi:error] [pid 29526:tid 139905214031616]     django.setup(set_prefix=False)
+[Fri Jul 05 05:50:21.599732 2019] [wsgi:error] [pid 29526:tid 139905214031616]   File "/home/prashant_rawat216/hostel_web/hostel-management/env/lib/python3.6/site-packages/django/__init__.py", line 24, in setup
+[Fri Jul 05 05:50:21.599737 2019] [wsgi:error] [pid 29526:tid 139905214031616]     apps.populate(settings.INSTALLED_APPS)
+[Fri Jul 05 05:50:21.599742 2019] [wsgi:error] [pid 29526:tid 139905214031616]   File "/home/prashant_rawat216/hostel_web/hostel-management/env/lib/python3.6/site-packages/django/apps/registry.py", line 91, in populate
+[Fri Jul 05 05:50:21.599746 2019] [wsgi:error] [pid 29526:tid 139905214031616]     app_config = AppConfig.create(entry)
+[Fri Jul 05 05:50:21.599752 2019] [wsgi:error] [pid 29526:tid 139905214031616]   File "/home/prashant_rawat216/hostel_web/hostel-management/env/lib/python3.6/site-packages/django/apps/config.py", line 90, in create
+[Fri Jul 05 05:50:21.599755 2019] [wsgi:error] [pid 29526:tid 139905214031616]     module = import_module(entry)
+[Fri Jul 05 05:50:21.599761 2019] [wsgi:error] [pid 29526:tid 139905214031616]   File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+[Fri Jul 05 05:50:21.599765 2019] [wsgi:error] [pid 29526:tid 139905214031616]     return _bootstrap._gcd_import(name[level:], package, level)
+[Fri Jul 05 05:50:21.599771 2019] [wsgi:error] [pid 29526:tid 139905214031616]   File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+[Fri Jul 05 05:50:21.599777 2019] [wsgi:error] [pid 29526:tid 139905214031616]   File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+[Fri Jul 05 05:50:21.599782 2019] [wsgi:error] [pid 29526:tid 139905214031616]   File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+[Fri Jul 05 05:50:21.599802 2019] [wsgi:error] [pid 29526:tid 139905214031616] ModuleNotFoundError: No module named 'django_extensions'
+[Fri Jul 05 05:50:24.103558 2019] [wsgi:error] [pid 29526:tid 139905214031616] [remote 27.56.245.14:18821] mod_wsgi (pid=29526): Target WSGI script '/home/prashant_rawat216/hostel_web/hostel-management/gpm/wsgi.py' does not contain WSGI application 'application'.
