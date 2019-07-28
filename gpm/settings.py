@@ -119,13 +119,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS=['/home/prashant_rawat216/hostel_web/hostel-management/media']
+#STATICFILES_DIRS=['/home/prashant_rawat216/hostel_web/hostel-management/media']
+#STATIC_ROOT = '/home/prashant_rawat216/hostel_web/hostel-management/static'
 
-STATIC_ROOT = '/home/prashant_rawat216/hostel_web/hostel-management/static'
-
-#STATICFILES_DIRS = ['/media/pr/Prashant/Projects/hostel-management/media']
-
-#STATIC_ROOT = '/media/pr/Prashant/Projects/hostel-management/static'
+STATICFILES_DIRS = ['/media/pr/Prashant/Projects/hostel-management/media']
+STATIC_ROOT = '/media/pr/Prashant/Projects/hostel-management/static'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
