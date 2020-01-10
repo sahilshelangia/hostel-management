@@ -1,0 +1,62 @@
+[Thu Jul 04 20:15:30.429901 2019] [wsgi:error] [pid 16466:tid 140048325854976] [remote 27.56.245.14:18842] mod_wsgi (pid=16466): Target WSGI script '/home/prashant_rawat216/hostel_web/hostel-management/gpm/wsgi.py' cannot be loaded as Python module.
+[Thu Jul 04 20:15:30.429996 2019] [wsgi:error] [pid 16466:tid 140048325854976] [remote 27.56.245.14:18842] mod_wsgi (pid=16466): Exception occurred processing WSGI script '/home/prashant_rawat216/hostel_web/hostel-management/gpm/wsgi.py'.
+[Thu Jul 04 20:15:30.430039 2019] [wsgi:error] [pid 16466:tid 140048325854976] [remote 27.56.245.14:18842] Traceback (most recent call last):
+[Thu Jul 04 20:15:30.430069 2019] [wsgi:error] [pid 16466:tid 140048325854976] [remote 27.56.245.14:18842]   File "/home/prashant_rawat216/hostel_web/hostel-management/gpm/wsgi.py", line 16, in <module>
+[Thu Jul 04 20:15:30.430154 2019] [wsgi:error] [pid 16466:tid 140048325854976] [remote 27.56.245.14:18842]     from django.core.wsgi import get_wsgi_application
+[Thu Jul 04 20:15:30.430179 2019] [wsgi:error] [pid 16466:tid 140048325854976] [remote 27.56.245.14:18842] ImportError: No module named django.core.wsgi
+[Thu Jul 04 20:19:57.910075 2019] [wsgi:error] [pid 16632:tid 139930772698880] [client 27.56.245.14:18914] No WSGI daemon process called 'hostel-management.ml' has been configured: /home/prashant_rawat216/hostel_web/hostel-management/gpm/wsgi.py
+[Thu Jul 04 20:28:06.965768 2019] [wsgi:error] [pid 16632:tid 139930849675008] [client 27.56.245.14:18778] No WSGI daemon process called 'hostel-management.ml' has been configured: /home/prashant_rawat216/hostel_web/hostel-management/gpm/wsgi.py
+[Thu Jul 04 20:29:41.178428 2019] [wsgi:error] [pid 16631:tid 139930747520768] [client 27.56.245.14:18804] No WSGI daemon process called 'hostel-management.ml' has been configured: /home/prashant_rawat216/hostel_web/hostel-management/gpm/wsgi.py
+[Thu Jul 04 20:32:00.856433 2019] [wsgi:error] [pid 16632:tid 139930747520768] [client 27.56.245.14:18836] No WSGI daemon process called 'hostel-management.ml' has been configured: /home/prashant_rawat216/hostel_web/hostel-management/gpm/wsgi.py
+[Thu Jul 04 20:36:35.796005 2019] [wsgi:error] [pid 16631:tid 139930730735360] [client 27.56.245.14:18508] No WSGI daemon process called 'hostel-management.ml' has been configured: /home/prashant_rawat216/hostel_web/hostel-management/gpm/wsgi.py
+[Thu Jul 04 20:48:36.848327 2019] [wsgi:error] [pid 18057:tid 140233668540160] [client 27.56.245.14:18651] Timeout when reading response headers from daemon process 'hostel-management.ml': /home/prashant_rawat216/hostel_web/hostel-management/gpm/wsgi.py
+[Thu Jul 04 20:49:12.633981 2019] [wsgi:error] [pid 18056:tid 140233685325568] [client 27.56.245.14:18694] Timeout when reading response headers from daemon process 'hostel-management.ml': /home/prashant_rawat216/hostel_web/hostel-management/gpm/wsgi.py
+[Thu Jul 04 20:49:17.660318 2019] [wsgi:error] [pid 18057:tid 140233676932864] [client 27.56.245.14:18695] Timeout when reading response headers from daemon process 'hostel-management.ml': /home/prashant_rawat216/hostel_web/hostel-management/gpm/wsgi.py
+[Thu Jul 04 20:51:48.888313 2019] [wsgi:error] [pid 18056:tid 140233676932864] [client 27.56.245.14:18742] Timeout when reading response headers from daemon process 'hostel-management.ml': /home/prashant_rawat216/hostel_web/hostel-management/gpm/wsgi.py
+[Thu Jul 04 20:52:04.228299 2019] [wsgi:error] [pid 18056:tid 140233702110976] [client 27.56.245.14:18747] Timeout when reading response headers from daemon process 'hostel-management.ml': /home/prashant_rawat216/hostel_web/hostel-management/gpm/wsgi.py
+[Fri Jul 05 03:10:14.463520 2019] [wsgi:error] [pid 22182:tid 140299952576256] [client 27.56.245.14:18861] Timeout when reading response headers from daemon process 'hostel-management.ml': /home/prashant_rawat216/hostel_web/hostel-management/gpm/wsgi.py
+[Fri Jul 05 03:12:04.667298 2019] [ssl:error] [pid 22183:tid 140299812701952] [client 64.41.200.105:35728] AH02042: rejecting client initiated renegotiation
+[Fri Jul 05 03:12:05.199482 2019] [ssl:error] [pid 22182:tid 140299795916544] [client 64.41.200.105:35922] AH02042: rejecting client initiated renegotiation
+[Fri Jul 05 03:16:33.632082 2019] [wsgi:error] [pid 22183:tid 140299977754368] [client 64.41.200.105:52880] Timeout when reading response headers from daemon process 'hostel-management.ml': /home/prashant_rawat216/hostel_web/hostel-management/gpm/wsgi.py
+[Fri Jul 05 03:16:46.306847 2019] [wsgi:error] [pid 23094:tid 139649838208768] [client 27.56.245.14:18805] mod_wsgi (pid=23094): Target WSGI script '/home/prashant_rawat216/hostel_web/hostel-management/gpm/wsgi.py' cannot be loaded as Python module.
+[Fri Jul 05 03:16:46.306893 2019] [wsgi:error] [pid 23094:tid 139649838208768] [client 27.56.245.14:18805] mod_wsgi (pid=23094): Exception occurred processing WSGI script '/home/prashant_rawat216/hostel_web/hostel-management/gpm/wsgi.py'.
+[Fri Jul 05 03:16:46.306909 2019] [wsgi:error] [pid 23094:tid 139649838208768] [client 27.56.245.14:18805] Traceback (most recent call last):
+[Fri Jul 05 03:16:46.306927 2019] [wsgi:error] [pid 23094:tid 139649838208768] [client 27.56.245.14:18805]   File "/home/prashant_rawat216/hostel_web/hostel-management/gpm/wsgi.py", line 16, in <module>
+[Fri Jul 05 03:16:46.306977 2019] [wsgi:error] [pid 23094:tid 139649838208768] [client 27.56.245.14:18805]     from django.core.wsgi import get_wsgi_application
+[Fri Jul 05 03:16:46.306992 2019] [wsgi:error] [pid 23094:tid 139649838208768] [client 27.56.245.14:18805] ImportError: No module named django.core.wsgi
+[Fri Jul 05 03:17:35.286111 2019] [wsgi:error] [pid 23095:tid 139649829816064] [client 167.86.109.221:60156] mod_wsgi (pid=23095): Target WSGI script '/home/prashant_rawat216/hostel_web/hostel-management/gpm/wsgi.py' cannot be loaded as Python module.
+[Fri Jul 05 03:17:35.286179 2019] [wsgi:error] [pid 23095:tid 139649829816064] [client 167.86.109.221:60156] mod_wsgi (pid=23095): Exception occurred processing WSGI script '/home/prashant_rawat216/hostel_web/hostel-management/gpm/wsgi.py'.
+[Fri Jul 05 03:17:35.286197 2019] [wsgi:error] [pid 23095:tid 139649829816064] [client 167.86.109.221:60156] Traceback (most recent call last):
+[Fri Jul 05 03:17:35.286219 2019] [wsgi:error] [pid 23095:tid 139649829816064] [client 167.86.109.221:60156]   File "/home/prashant_rawat216/hostel_web/hostel-management/gpm/wsgi.py", line 16, in <module>
+[Fri Jul 05 03:17:35.286283 2019] [wsgi:error] [pid 23095:tid 139649829816064] [client 167.86.109.221:60156]     from django.core.wsgi import get_wsgi_application
+[Fri Jul 05 03:17:35.286301 2019] [wsgi:error] [pid 23095:tid 139649829816064] [client 167.86.109.221:60156] ImportError: No module named django.core.wsgi
+[Fri Jul 05 03:22:58.551903 2019] [wsgi:error] [pid 23599:tid 140157906552576] [client 27.56.245.14:18615] mod_wsgi (pid=23599): Target WSGI script '/home/prashant_rawat216/hostel_web/hostel-management/gpm/wsgi.py' cannot be loaded as Python module.
+[Fri Jul 05 03:22:58.552014 2019] [wsgi:error] [pid 23599:tid 140157906552576] [client 27.56.245.14:18615] mod_wsgi (pid=23599): Exception occurred processing WSGI script '/home/prashant_rawat216/hostel_web/hostel-management/gpm/wsgi.py'.
+[Fri Jul 05 03:22:58.552319 2019] [wsgi:error] [pid 23599:tid 140157906552576] [client 27.56.245.14:18615] Traceback (most recent call last):
+[Fri Jul 05 03:22:58.552347 2019] [wsgi:error] [pid 23599:tid 140157906552576] [client 27.56.245.14:18615]   File "/home/prashant_rawat216/hostel_web/hostel-management/gpm/wsgi.py", line 16, in <module>
+[Fri Jul 05 03:22:58.552352 2019] [wsgi:error] [pid 23599:tid 140157906552576] [client 27.56.245.14:18615]     from django.core.wsgi import get_wsgi_application
+[Fri Jul 05 03:22:58.552369 2019] [wsgi:error] [pid 23599:tid 140157906552576] [client 27.56.245.14:18615] ModuleNotFoundError: No module named 'django'
+[Fri Jul 05 03:25:55.104736 2019] [wsgi:error] [pid 23598:tid 140157793593088] [client 27.56.245.14:18712] mod_wsgi (pid=23598): Target WSGI script '/home/prashant_rawat216/hostel_web/hostel-management/gpm/wsgi.py' cannot be loaded as Python module.
+[Fri Jul 05 03:25:55.104843 2019] [wsgi:error] [pid 23598:tid 140157793593088] [client 27.56.245.14:18712] mod_wsgi (pid=23598): Exception occurred processing WSGI script '/home/prashant_rawat216/hostel_web/hostel-management/gpm/wsgi.py'.
+[Fri Jul 05 03:25:55.105151 2019] [wsgi:error] [pid 23598:tid 140157793593088] [client 27.56.245.14:18712] Traceback (most recent call last):
+[Fri Jul 05 03:25:55.105175 2019] [wsgi:error] [pid 23598:tid 140157793593088] [client 27.56.245.14:18712]   File "/home/prashant_rawat216/hostel_web/hostel-management/gpm/wsgi.py", line 16, in <module>
+[Fri Jul 05 03:25:55.105180 2019] [wsgi:error] [pid 23598:tid 140157793593088] [client 27.56.245.14:18712]     from django.core.wsgi import get_wsgi_application
+[Fri Jul 05 03:25:55.105196 2019] [wsgi:error] [pid 23598:tid 140157793593088] [client 27.56.245.14:18712] ModuleNotFoundError: No module named 'django'
+[Fri Jul 05 05:50:21.599581 2019] [wsgi:error] [pid 29526:tid 139905214031616] Traceback (most recent call last):
+[Fri Jul 05 05:50:21.599707 2019] [wsgi:error] [pid 29526:tid 139905214031616]   File "/home/prashant_rawat216/hostel_web/hostel-management/gpm/wsgi.py", line 23, in <module>
+[Fri Jul 05 05:50:21.599714 2019] [wsgi:error] [pid 29526:tid 139905214031616]     application = get_wsgi_application()
+[Fri Jul 05 05:50:21.599721 2019] [wsgi:error] [pid 29526:tid 139905214031616]   File "/home/prashant_rawat216/hostel_web/hostel-management/env/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Fri Jul 05 05:50:21.599726 2019] [wsgi:error] [pid 29526:tid 139905214031616]     django.setup(set_prefix=False)
+[Fri Jul 05 05:50:21.599732 2019] [wsgi:error] [pid 29526:tid 139905214031616]   File "/home/prashant_rawat216/hostel_web/hostel-management/env/lib/python3.6/site-packages/django/__init__.py", line 24, in setup
+[Fri Jul 05 05:50:21.599737 2019] [wsgi:error] [pid 29526:tid 139905214031616]     apps.populate(settings.INSTALLED_APPS)
+[Fri Jul 05 05:50:21.599742 2019] [wsgi:error] [pid 29526:tid 139905214031616]   File "/home/prashant_rawat216/hostel_web/hostel-management/env/lib/python3.6/site-packages/django/apps/registry.py", line 91, in populate
+[Fri Jul 05 05:50:21.599746 2019] [wsgi:error] [pid 29526:tid 139905214031616]     app_config = AppConfig.create(entry)
+[Fri Jul 05 05:50:21.599752 2019] [wsgi:error] [pid 29526:tid 139905214031616]   File "/home/prashant_rawat216/hostel_web/hostel-management/env/lib/python3.6/site-packages/django/apps/config.py", line 90, in create
+[Fri Jul 05 05:50:21.599755 2019] [wsgi:error] [pid 29526:tid 139905214031616]     module = import_module(entry)
+[Fri Jul 05 05:50:21.599761 2019] [wsgi:error] [pid 29526:tid 139905214031616]   File "/usr/lib/python3.6/importlib/__init__.py", line 126, in import_module
+[Fri Jul 05 05:50:21.599765 2019] [wsgi:error] [pid 29526:tid 139905214031616]     return _bootstrap._gcd_import(name[level:], package, level)
+[Fri Jul 05 05:50:21.599771 2019] [wsgi:error] [pid 29526:tid 139905214031616]   File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+[Fri Jul 05 05:50:21.599777 2019] [wsgi:error] [pid 29526:tid 139905214031616]   File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+[Fri Jul 05 05:50:21.599782 2019] [wsgi:error] [pid 29526:tid 139905214031616]   File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+[Fri Jul 05 05:50:21.599802 2019] [wsgi:error] [pid 29526:tid 139905214031616] ModuleNotFoundError: No module named 'django_extensions'
+[Fri Jul 05 05:50:24.103558 2019] [wsgi:error] [pid 29526:tid 139905214031616] [remote 27.56.245.14:18821] mod_wsgi (pid=29526): Target WSGI script '/home/prashant_rawat216/hostel_web/hostel-management/gpm/wsgi.py' does not contain WSGI application 'application'.

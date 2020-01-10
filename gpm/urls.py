@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from accounts.views import index, contact, contactUs
+from accounts.views import index, contact, contactUs, read_file1, read_file2
 from django.conf import settings
 from django.conf.urls.static import static
 
@@ -29,6 +29,6 @@ urlpatterns = [
                   path('manager/', include('manager.urls')), 
                   path('contactUs/', contactUs, name='contactUs'), 
                   path('contact/', contact, name='contact'),
-
-
+                  path('.well-known/acme-challenge/NAfTgP4hg6-89zx5DTWnuWJ6UpZqK7-ScWj6zF-IbF0', read_file1, name='readfile1'),
+                  path('.well-known/acme-challenge/Ku3EbN4vJ4p3BPM2NWST1_YTNf-kSP4Zk2UlhOvp3h4', read_file2, name='readfile2'),
               ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

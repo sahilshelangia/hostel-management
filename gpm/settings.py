@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'gatepass_approve',
     'manager',
     'widget_tweaks',
+    'django_extensions',
 ]
 
 MIDDLEWARE = [
@@ -106,7 +107,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Kolkata'
 
 USE_I18N = True
 
@@ -118,14 +119,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS=['/home/prashant_rawat216/hostel_web/hostel-management/media','/home/prashant_rawat216/hostel_web/hostel-management/college_data']
+#STATICFILES_DIRS=['/home/prashant_rawat216/hostel_web/hostel-management/media']
+#STATIC_ROOT = '/home/prashant_rawat216/hostel_web/hostel-management/static'
 
-STATIC_ROOT = '/home/prashant_rawat216/hostel_web/hostel-management/static'
-
-# STATICFILES_DIRS = ['/media/pr/Prashant/Projects/hostel-management/media',
-#                     '/media/pr/Prashant/Projects/hostel-management/college_data']
-#
-# STATIC_ROOT = '/media/pr/Prashant/Projects/hostel-management/static'
+STATICFILES_DIRS = ['/media/pr/Prashant/Projects/hostel-management/media']
+STATIC_ROOT = '/media/pr/Prashant/Projects/hostel-management/static'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
@@ -142,3 +140,18 @@ EMAIL_HOST_PASSWORD = 'password@007'
 # Session
 SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 # django_heroku.settings(locals())
+
+# CORS_REPLACE_HTTPS_REFERER      = True
+# HOST_SCHEME                     = "https://"
+# SECURE_PROXY_SSL_HEADER         = ('HTTP_X_FORWARDED_PROTO', 'https')
+# SECURE_SSL_REDIRECT             = True
+# SESSION_COOKIE_SECURE           = True
+# CSRF_COOKIE_SECURE              = True
+# SECURE_HSTS_SECONDS             = 3600
+# SECURE_HSTS_INCLUDE_SUBDOMAINS  = True
+# SECURE_FRAME_DENY               = True
+# X_FRAME_OPTIONS:Deny
+# SECURE_BROWSER_XSS_FILTER       = True
+# SECURE_CONTENT_TYPE_NOSNIFF     = True
+
+
